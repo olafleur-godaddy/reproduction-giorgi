@@ -1,4 +1,4 @@
-import { ComplementaryArea } from '@wordpress/interface';
+import { PluginSidebar } from '@wordpress/edit-post';
 import { registerPlugin } from '@wordpress/plugins';
 
 registerPlugin( 'prefix-gutenberg-sidebar', {
@@ -6,14 +6,14 @@ registerPlugin( 'prefix-gutenberg-sidebar', {
     render: () => {
         return (
             <>
-                <ComplementaryArea
+                <PluginSidebar
                     icon='smiley'
                     identifier={ 'fun-complementary-area' }
                     scope="core/edit-post"
                     smallScreenTitle={ 'Small scren title' }
                     title={ 'Title' }>
                             Yo
-                </ComplementaryArea>
+                </PluginSidebar>
             </>
         )
     }
