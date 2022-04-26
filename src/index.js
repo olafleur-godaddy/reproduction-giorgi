@@ -8,10 +8,10 @@ registerPlugin( 'prefix-gutenberg-sidebar', {
             <>
                 <ComplementaryArea
                 icon='smiley'
-						identifier={ 'fun-complementary-area' }
-						scope="core/edit-post"
-						smallScreenTitle={ 'Small scren title' }
-						title={ 'Title' }>
+				identifier={ 'fun-complementary-area' }
+				scope="core/edit-post"
+				smallScreenTitle={ 'Small scren title' }
+				title={ 'Title' }>
                             Yo
                 </ComplementaryArea>
             </>
