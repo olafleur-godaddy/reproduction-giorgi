@@ -13,7 +13,7 @@ function enqueue_assets() {
     wp_enqueue_script(
         'gutenberg-sidebar',
         plugins_url( 'build/index.js', __FILE__ ),
-        [ 'wp-plugins', 'wp-edit-post', 'wp-element', 'wp-components', 'wp-data']
+        ['wp-edit-post']
     );
 }
 

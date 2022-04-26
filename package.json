@@ -9,6 +9,11 @@
     },
     "author": "Olivier Lafleur",
     "devDependencies": {
-        "@wordpress/scripts": "^22.5.0"
+        "@wordpress/scripts": "^22.5.0",
+        "@wordpress/interface": "4.3.1",
+        "@wordpress/plugins": "4.5.0",
+        "@wordpress/edit-post": "6.4.0",
+        "@wordpress/element": "4.5.0",
+        "@wordpress/components": "19.9.0"
     }
 }

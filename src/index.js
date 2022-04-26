@@ -1,5 +1,5 @@
-const { registerPlugin } = wp.plugins;
-const { PluginSidebar, PluginSidebarMoreMenuItem } = wp.editPost;
+import { PluginSidebar } from '@wordpress/edit-post';
+import { registerPlugin } from '@wordpress/plugins';
 
 registerPlugin( 'prefix-gutenberg-sidebar', {
     icon: 'smiley',
