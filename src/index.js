@@ -7,11 +7,11 @@ registerPlugin( 'prefix-gutenberg-sidebar', {
         return (
             <>
                 <ComplementaryArea
-                icon='smiley'
-				identifier={ 'fun-complementary-area' }
-				scope="core/edit-post"
-				smallScreenTitle={ 'Small scren title' }
-				title={ 'Title' }>
+                    icon='smiley'
+                    identifier={ 'fun-complementary-area' }
+                    scope="core/edit-post"
+                    smallScreenTitle={ 'Small scren title' }
+                    title={ 'Title' }>
                             Yo
                 </ComplementaryArea>
             </>
