@@ -1,0 +1,14 @@
+{
+    "name": "reproduction-giorgi",
+    "version": "1.0.0",
+    "description": "A reproduction of the redux bug",
+    "main": "index.js",
+    "scripts": {
+        "start": "wp-scripts start",
+        "build": "wp-scripts build"
+    },
+    "author": "Olivier Lafleur",
+    "devDependencies": {
+        "@wordpress/scripts": "^22.5.0"
+    }
+}
